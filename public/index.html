@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Chat App</title>
+        <link rel="icon" href="img/favicon.png">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="centered-form">
+            <div class="centered-form__box">
+                <h1>Join</h1>
+                <form id="frmJoin" action="chat.html">
+                    <label>Display name</label>
+                    <input type="text" name="username" id="txtUsername" placeholder="Username" required="required" autocomplete="off">
+                    <label>Room</label>
+                    <input type="text" name="room" id="txtRoom" placeholder="Room" required="required" autocomplete="off">
+                    <button>Join</button>
+                </form>
+            </div>
+        </div>
+
+        <script src="socket.io/socket.io.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
